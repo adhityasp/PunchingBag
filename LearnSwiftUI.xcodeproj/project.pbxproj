@@ -7,21 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7928EDAE2BCF4FBF00D026DD /* LearnSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EDAD2BCF4FBF00D026DD /* LearnSwiftUIUITestsLaunchTests.swift */; };
+		7928EDBA2BCF511B00D026DD /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 7928EDB92BCF511B00D026DD /* Features */; };
+		7928EDBD2BCF538C00D026DD /* CucumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EDBC2BCF538C00D026DD /* CucumberTests.swift */; };
+		792FDD682C5C7395008699F4 /* ConcurrencyExtras in Frameworks */ = {isa = PBXBuildFile; productRef = 792FDD672C5C7395008699F4 /* ConcurrencyExtras */; };
+		79752B592BDB818100581B1C /* bellNewNotification.lottie in Resources */ = {isa = PBXBuildFile; fileRef = 79752B582BDB817D00581B1C /* bellNewNotification.lottie */; };
 		79865EA429725231009ECC74 /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79865EA329725231009ECC74 /* LearnSwiftUIApp.swift */; };
 		79865EA629725231009ECC74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79865EA529725231009ECC74 /* ContentView.swift */; };
 		79865EA829725232009ECC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79865EA729725232009ECC74 /* Assets.xcassets */; };
 		79865EAB29725232009ECC74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79865EAA29725232009ECC74 /* Preview Assets.xcassets */; };
+		799B628D2C5C5FF400C8ACB9 /* LearnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B628C2C5C5FF400C8ACB9 /* LearnSwiftUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7928EDAF2BCF4FBF00D026DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79865E9829725231009ECC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79865E9F29725231009ECC74;
+			remoteInfo = LearnSwiftUI;
+		};
+		799B628E2C5C5FF400C8ACB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79865E9829725231009ECC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79865E9F29725231009ECC74;
+			remoteInfo = LearnSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7928EDA92BCF4FBF00D026DD /* LearnSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7928EDAD2BCF4FBF00D026DD /* LearnSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7928EDB92BCF511B00D026DD /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		7928EDBB2BCF52CE00D026DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7928EDBC2BCF538C00D026DD /* CucumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberTests.swift; sourceTree = "<group>"; };
+		79752B582BDB817D00581B1C /* bellNewNotification.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = bellNewNotification.lottie; sourceTree = "<group>"; };
 		79865EA029725231009ECC74 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79865EA329725231009ECC74 /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		79865EA529725231009ECC74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79865EA729725232009ECC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79865EAA29725232009ECC74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		799B628A2C5C5FF400C8ACB9 /* LearnSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		799B628C2C5C5FF400C8ACB9 /* LearnSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7928EDA62BCF4FBF00D026DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79865E9D29725231009ECC74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,13 +67,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		799B62872C5C5FF400C8ACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792FDD682C5C7395008699F4 /* ConcurrencyExtras in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7928EDAA2BCF4FBF00D026DD /* LearnSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7928EDB92BCF511B00D026DD /* Features */,
+				7928EDAD2BCF4FBF00D026DD /* LearnSwiftUIUITestsLaunchTests.swift */,
+				7928EDBC2BCF538C00D026DD /* CucumberTests.swift */,
+			);
+			path = LearnSwiftUIUITests;
+			sourceTree = "<group>";
+		};
 		79865E9729725231009ECC74 = {
 			isa = PBXGroup;
 			children = (
 				79865EA229725231009ECC74 /* LearnSwiftUI */,
+				7928EDAA2BCF4FBF00D026DD /* LearnSwiftUIUITests */,
+				799B628B2C5C5FF400C8ACB9 /* LearnSwiftUITests */,
 				79865EA129725231009ECC74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				79865EA029725231009ECC74 /* LearnSwiftUI.app */,
+				7928EDA92BCF4FBF00D026DD /* LearnSwiftUIUITests.xctest */,
+				799B628A2C5C5FF400C8ACB9 /* LearnSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +111,8 @@
 		79865EA229725231009ECC74 /* LearnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				79752B582BDB817D00581B1C /* bellNewNotification.lottie */,
+				7928EDBB2BCF52CE00D026DD /* Info.plist */,
 				79865EA329725231009ECC74 /* LearnSwiftUIApp.swift */,
 				79865EA529725231009ECC74 /* ContentView.swift */,
 				79865EA729725232009ECC74 /* Assets.xcassets */,
@@ -67,9 +129,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		799B628B2C5C5FF400C8ACB9 /* LearnSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				799B628C2C5C5FF400C8ACB9 /* LearnSwiftUITests.swift */,
+			);
+			path = LearnSwiftUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7928EDA82BCF4FBF00D026DD /* LearnSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7928EDB32BCF4FBF00D026DD /* Build configuration list for PBXNativeTarget "LearnSwiftUIUITests" */;
+			buildPhases = (
+				7928EDA52BCF4FBF00D026DD /* Sources */,
+				7928EDA62BCF4FBF00D026DD /* Frameworks */,
+				7928EDA72BCF4FBF00D026DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7928EDB02BCF4FBF00D026DD /* PBXTargetDependency */,
+			);
+			name = LearnSwiftUIUITests;
+			packageProductDependencies = (
+			);
+			productName = LearnSwiftUIUITests;
+			productReference = 7928EDA92BCF4FBF00D026DD /* LearnSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		79865E9F29725231009ECC74 /* LearnSwiftUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79865EAE29725232009ECC74 /* Build configuration list for PBXNativeTarget "LearnSwiftUI" */;
@@ -83,9 +173,32 @@
 			dependencies = (
 			);
 			name = LearnSwiftUI;
+			packageProductDependencies = (
+			);
 			productName = LearnSwiftUI;
 			productReference = 79865EA029725231009ECC74 /* LearnSwiftUI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		799B62892C5C5FF400C8ACB9 /* LearnSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799B62922C5C5FF400C8ACB9 /* Build configuration list for PBXNativeTarget "LearnSwiftUITests" */;
+			buildPhases = (
+				799B62862C5C5FF400C8ACB9 /* Sources */,
+				799B62872C5C5FF400C8ACB9 /* Frameworks */,
+				799B62882C5C5FF400C8ACB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				799B628F2C5C5FF400C8ACB9 /* PBXTargetDependency */,
+			);
+			name = LearnSwiftUITests;
+			packageProductDependencies = (
+				792FDD672C5C7395008699F4 /* ConcurrencyExtras */,
+			);
+			productName = LearnSwiftUITests;
+			productReference = 799B628A2C5C5FF400C8ACB9 /* LearnSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,11 +207,19 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					7928EDA82BCF4FBF00D026DD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 79865E9F29725231009ECC74;
+					};
 					79865E9F29725231009ECC74 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					799B62892C5C5FF400C8ACB9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 79865E9F29725231009ECC74;
 					};
 				};
 			};
@@ -111,28 +232,58 @@
 				Base,
 			);
 			mainGroup = 79865E9729725231009ECC74;
+			packageReferences = (
+				792FDD662C5C7395008699F4 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */,
+			);
 			productRefGroup = 79865EA129725231009ECC74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79865E9F29725231009ECC74 /* LearnSwiftUI */,
+				7928EDA82BCF4FBF00D026DD /* LearnSwiftUIUITests */,
+				799B62892C5C5FF400C8ACB9 /* LearnSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7928EDA72BCF4FBF00D026DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928EDBA2BCF511B00D026DD /* Features in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79865E9E29725231009ECC74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				79865EAB29725232009ECC74 /* Preview Assets.xcassets in Resources */,
 				79865EA829725232009ECC74 /* Assets.xcassets in Resources */,
+				79752B592BDB818100581B1C /* bellNewNotification.lottie in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799B62882C5C5FF400C8ACB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7928EDA52BCF4FBF00D026DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928EDAE2BCF4FBF00D026DD /* LearnSwiftUIUITestsLaunchTests.swift in Sources */,
+				7928EDBD2BCF538C00D026DD /* CucumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79865E9C29725231009ECC74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,9 +293,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		799B62862C5C5FF400C8ACB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799B628D2C5C5FF400C8ACB9 /* LearnSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7928EDB02BCF4FBF00D026DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79865E9F29725231009ECC74 /* LearnSwiftUI */;
+			targetProxy = 7928EDAF2BCF4FBF00D026DD /* PBXContainerItemProxy */;
+		};
+		799B628F2C5C5FF400C8ACB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79865E9F29725231009ECC74 /* LearnSwiftUI */;
+			targetProxy = 799B628E2C5C5FF400C8ACB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7928EDB12BCF4FBF00D026DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.PaypayAppTests.LearnSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnSwiftUI;
+			};
+			name = Debug;
+		};
+		7928EDB22BCF4FBF00D026DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.PaypayAppTests.LearnSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnSwiftUI;
+			};
+			name = Release;
+		};
 		79865EAC29725232009ECC74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,6 +484,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LearnSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LearnSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,9 +532,65 @@
 			};
 			name = Release;
 		};
+		799B62902C5C5FF400C8ACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SWNMLHBD;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.PaypayAppTests.LearnSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnSwiftUI";
+			};
+			name = Debug;
+		};
+		799B62912C5C5FF400C8ACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SWNMLHBD;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.PaypayAppTests.LearnSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnSwiftUI";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7928EDB32BCF4FBF00D026DD /* Build configuration list for PBXNativeTarget "LearnSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7928EDB12BCF4FBF00D026DD /* Debug */,
+				7928EDB22BCF4FBF00D026DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		79865E9B29725231009ECC74 /* Build configuration list for PBXProject "LearnSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -336,7 +609,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		799B62922C5C5FF400C8ACB9 /* Build configuration list for PBXNativeTarget "LearnSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799B62902C5C5FF400C8ACB9 /* Debug */,
+				799B62912C5C5FF400C8ACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		792FDD662C5C7395008699F4 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-concurrency-extras.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		792FDD672C5C7395008699F4 /* ConcurrencyExtras */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 792FDD662C5C7395008699F4 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */;
+			productName = ConcurrencyExtras;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79865E9829725231009ECC74 /* Project object */;
 }
