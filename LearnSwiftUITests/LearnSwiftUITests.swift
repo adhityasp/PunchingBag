@@ -17,9 +17,10 @@ final class LearnSwiftUITests: XCTestCase {
 
             let sut = BarcodeScreenViewModel(barcodeRepository: mockBarcodeRepository)
 
-            await sut.binding()
-            await Task.yield()
+            Task { await sut.binding() }
+            await Task.megaYield()
             sut.isUsingPayPayPoints = true
+            await Task.megaYield()
 
             XCTAssertEqual(sut.barcodeResponse, BarcodeResponse(barcode: "barcode"))
             XCTAssertEqual(mockBarcodeRepository.getBarcodeCallCount, 2)
